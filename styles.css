@@ -1,0 +1,234 @@
+body  {
+    /* background-image: url("images/winecountry_background.png"); */
+    /* background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover; */
+    background-color: grey;
+    padding: 10px;
+}
+/* NAVBAR */
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: black;
+    border: 2px tomato solid;
+    outline: 1px #CCFF99 solid;
+}
+li {
+text-align: left;
+display: inline-block;
+padding: 5px;
+margin-left: 7%;
+margin-right: 7%;
+font-size: 1rem;
+font-family: 'Saira Extra Condensed', sans-serif;
+letter-spacing: 3px;
+}
+li a {
+display: block;
+color: lightgreen;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+li a:hover {
+background-color: tan;
+color: purple;
+}
+/* TEXT: D.L. Williams Insurance */
+#main_article_title {
+    color: #CCFF99;
+    background-color: black;
+	width: 60%;
+    height: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+	text-align: center;
+    letter-spacing: 3px;
+    font-size: 1.3rem;
+    font-family: 'Merienda', cursive;
+    border: 2px tomato solid;
+    outline: 1px #CCFF99 solid;
+}
+/* Commercial, Residential, Health, Auto */
+.container .left_article, p, h3 {
+	padding-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* TEXT BOX  "to get a quote" */
+.column_title {
+	padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 120%;
+    color: #CCFF99;
+    background-color: black;
+    width: 60%;
+    height: auto;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    border: 1px tomato solid;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    text-align: center;
+}
+/* 4 INSURANCE ICONS DESIGN---the borders and container */
+.row {
+	width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+	display: inline-block;
+    text-align: center;
+    background-color: black;
+    font-size: 80%;
+    border: 2px tomato solid;
+    outline: 1px #CCFF99 solid;
+    margin-top: -15px;
+    /* margin-bottom: 0px; */
+}
+/* TEXT:  "TO GET A QUOTE" 'S BACKGROUND CONTAINER SPECS' */
+.row2 {
+	width: 100%;
+    height: 60%;
+	display: inline-block;
+    text-align: center;
+    background-color: black;
+    font-size: 70%;
+}
+.social {
+    border: 2px tomato solid;
+    outline: 1px #CCFF99 solid;
+    padding: 5px;
+}
+.row.blockDisplay {
+	display: block;
+}
+#quote {
+    padding: 5px;
+    font-size: 80%;
+    width: 100%;
+    height: auto;
+    background-color: none;
+    margin-top: -15px;
+}
+/* ///////////TEXT BLOCKS-INSURANCE TYPES ! IMPORTANT////////// */
+.columns {
+	font-size: 90%;
+	width: 24.85%;
+	float: left;
+	font-family: 'Merienda', cursive;
+    letter-spacing: 3px;
+	color: white;
+	line-height: 24px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.row .columns, p {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+/*TITLE COLORS?? */
+.container .columns h4 {
+	text-align: center;
+    font-size: 70%;
+}
+/* Contact Information */
+.thumbnail {
+	width: 150px;
+    height: 150px;
+	border-radius: 200px;
+	margin-left: auto;
+    border: 1px tomato solid;
+}
+.thumbnail_align {
+	text-align: center;
+}
+/* ICON TEXT-BOX */
+.social {
+	text-align: center;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+	width: 90%;
+    height: auto;
+	background-color: black;
+    padding: 10px;
+	clear: both;
+	overflow: hidden;
+}
+/* SOCIAL ICONS--FOUR COLUMNS */
+.social_icon {
+	width: 25%;
+    color: #CCFF99;
+    font-size: 90%;
+	text-align: center;
+	float: left;
+	line-height: 15px;
+	padding-top: 5px;
+    padding-bottom: 5px;
+    letter-spacing: 4px;
+}
+#map {
+    width: 40%;
+    height: auto;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border: 2px tomato solid;
+    outline: 1px #CCFF99 solid;
+
+}
+
+/* FOOTER/COPYRIGHT TEXT-BOX */
+#secondary_header1 {
+    background-color: black;
+    width: 40%;
+    height: 50px;
+    margin: auto;
+    margin-top: 15px;
+    padding: 15px;
+    border: 2px tomato solid;
+    outline: 1px #CCFF99 solid;
+}
+
+#name {
+    text-align: center;
+}
+#main_article {
+    color: #CCFF99;
+    background-color: black;
+	width: 60%;
+    height: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: -5px;
+    padding: 25px 25px 25px 25px;
+	text-align: left;
+    letter-spacing: 4px;
+    font-size: 1rem;
+    font-family: 'Merienda', cursive;
+    border: 2px tomato solid;
+    outline: 1px #CCFF99 solid;
+}
+#copyright  {
+    font-size: 0.8rem;
+    text-align: center;
+	color: #CCFF99;
+	text-transform: uppercase;
+    font-family: "Source Sans Pro";
+    margin-top: 15px;
+}
+
+
