@@ -1,257 +1,67 @@
-body  {
-    /* background-image: url("images/winecountry_background.png"); */
-    /* background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover; */
-    background-color: grey;
-    padding: 10px;
-    color: black;
-}
-/* NAVBAR */
-ul {
-    list-style-type: none;
-    overflow: hidden;
-    background-color: lightgrey;
-    border: 2px black solid;
-    outline: 1px aqua solid;
-}
-li {
-text-align: left;
-display: inline-block;
-padding: 5px;
-margin-left: 7%;
-margin-right: 7%;
-font-size: 1.2rem;
-font-family: 'Saira Extra Condensed', sans-serif;
-letter-spacing: 3px;
-}
-li a {
-display: block;
-color: black;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-}
-li a:hover {
-background-color: aqua;
-color: black;
-border: 1px grey solid;
-}
-/* TEXT: D.L. Williams Insurance */
-#main_article_title {
-    color: black;
-    background-color: lightgray;
-	width: 60%;
-    height: auto;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 25px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-	text-align: center;
+body {
+    background-color: white;
+    font-style: "Gayathri", sans-serif;
+    font-size: 2rem;
     letter-spacing: 3px;
-    font-size: 1.3rem;
-    font-family: 'Merienda', cursive;
-    border: 2px black solid;
-    outline: 1px aqua solid;
+    align-content: center;
+    margin-bottom: 25px;
 }
-/* Commercial, Residential, Health, Auto */
-.container .left_article, p, h3 {
-	padding-top: 10px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-/* TEXT BOX  "to get a quote" */
-.column_title {
-	padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 1.2rem;
-    color: black;
-    background-color: lightgray;
-    width: 60%;
-    height: auto;
-    border-top-left-radius: 15%;
-    border-top-right-radius: 15%;
-    border-bottom-left-radius: 15%;
-    border-bottom-right-radius: 15%;
-    border: 2px aqua solid;
-    margin-left: auto;
-    margin-right: auto;
-    letter-spacing: 2px;
-    margin-bottom: 15px;
-    margin-top: 0px;
+/* Text: DL Williams Insurance */
+h1 {
+    font-style: "Gayathri", sans-serif;
     text-align: center;
+
 }
-/* 4 INSURANCE ICONS DESIGNs: Commercial, Residential, Auto, Health---the borders and container */
-.row {
-	width: 90%;
-    height: auto;
-    margin-left: 5%;
-    margin-right: 5%;
-	display: inline-block;
+/* Text: Insurance and Bonds */
+p {
     text-align: center;
-    background-color: lightgrey;
-    font-size: 80%;
-    border: 2px black solid;
-    outline: 1px aqua solid;
-    margin-top: -15px;
-    /* margin-bottom: 0px; */
+    font-size: 2rem;
 }
-/* TEXT:  "TO GET A QUOTE" 'S BACKGROUND CONTAINER SPECS' */
-.row2 {
-	width: 100%;
-    height: 60%;
-	display: inline-block;
-    text-align: center;
-    background-color: lightgray;
-    font-size: 70%;
-}
-.social {
-    border: 2px black solid;
-    outline: 1px aqua solid;
-    padding: 5px;
-}
-.row.blockDisplay {
-	display: block;
-}
-#quote {
-    padding: 5px;
-    font-size: 80%;
+/* Horizontal Line formatting */
+hr {
     width: 100%;
-    height: auto;
-    background-color: none;
-    margin-top: -15px;
-}
-/* ///////////TEXT BLOCKS-INSURANCE TYPES ! IMPORTANT////////// */
-.columns {
-	font-size: 90%;
-	width: 24.85%;
-	float: left;
-	font-family: 'Merienda', cursive;
-    letter-spacing: 3px;
-	color: black;
-	line-height: 24px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	text-align: center;
-	margin-top: 15px;
-	margin-bottom: 15px;
-}
-.row .columns, p {
-	padding-left: 10%;
-	padding-right: 10%;
-}
-/*TITLE COLORS?? */
-.container .columns h4 {
-	text-align: center;
-    font-size: 70%;
-}
-/* Contact Information */
-.thumbnail {
-	width: 150px;
-    height: 150px;
-	border-radius: 200px;
-	margin-left: auto;
-    border: 1px black solid;
-}
-.thumbnail_align {
-	text-align: center;
-}
-/* ICON TEXT-BOX */
-.social {
-	text-align: center;
-	margin-right: auto;
-	margin-bottom: 5px;
-	margin-left: auto;
-	width: 90%;
-    height: auto;
-	background-color: lightgrey;
-    padding: 10px;
-	clear: both;
-	overflow: hidden;
-}
-/* SOCIAL ICONS--FOUR COLUMNS */
-.social_icon {
-	width: 24%;
-    color: black;
-    font-size: 1.2rem;
-	text-align: center;
-	float: left;
-	line-height: 15px;
-	padding-top: 5px;
-    padding-bottom: 5px;
-    letter-spacing: 4px;
-}
-#homeicon {
-    width: 100px;
-    height: auto;
-}
-#phoneicon {
-    width: 100px;
-    height: auto;
-}
+    height: 5px;
+    background-color: black;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-width: 100%;
 
-#emailicon {
-    width: 100px;
-    height: auto;
 }
-
-#faxicon {
-    width: 100px;
-    height: auto;
+/* Text: Biography */
+#bio {
+    color: darkblue;
 }
+#car {
+    border-radius: 50%;
+    border: 1px blue solid;
 
+}
+figcaption {
+    text-align: center;
+
+}
+#commercial {
+    border-radius: 50%;
+    margin-left: 35%;
+    margin-right: 50%;
+    border: 1px blue solid;
+
+    
+}
+#health, #homeowners, #condo, #boat, #motorcycle {
+    border-radius: 50%;
+    border: 1px blue solid;
+}
 #map {
     width: 40%;
     height: auto;
+    border: 1px blue solid;
+    outline: 1px black solid;
+    margin-top: 25px;
+    margin-bottom: 25px;
     margin-left: 30%;
     margin-right: 30%;
-    margin-top: 25px;
-    margin-bottom: 15px;
-    border: 2px black solid;
-    outline: 1px aqua solid;
 
 }
-
-/* FOOTER/COPYRIGHT TEXT-BOX */
-#secondary_header1 {
-    background-color: lightgrey;
-    width: 40%;
-    height: 50px;
-    margin: auto;
-    margin-top: 15px;
-    padding: 15px;
-    border: 2px black solid;
-    outline: 1px aqua solid;
-}
-
-#name {
-    text-align: center;
-}
-#main_article {
-    color: black;
-    background-color: lightgrey;
-	width: 60%;
-    height: auto;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: -5px;
-    padding: 25px 25px 25px 25px;
-	text-align: left;
-    letter-spacing: 4px;
-    font-size: 1rem;
-    font-family: 'Merienda', cursive;
-    border: 2px black solid;
-    outline: 1px aqua solid;
-}
-footer  {
-    font-size: 0.8rem;
-    text-align: center;
-	color: black;
-	text-transform: uppercase;
-    font-family: "Source Sans Pro";
-    margin-top: 15px;
-}
-
-
