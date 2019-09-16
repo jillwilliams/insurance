@@ -173,9 +173,9 @@ border: 1px grey solid;
 }
 /* SOCIAL ICONS--FOUR COLUMNS */
 .social_icon {
-	width: 25%;
+	width: 24%;
     color: black;
-    font-size: 90%;
+    font-size: 1.2rem;
 	text-align: center;
 	float: left;
 	line-height: 15px;
@@ -183,6 +183,25 @@ border: 1px grey solid;
     padding-bottom: 5px;
     letter-spacing: 4px;
 }
+#homeicon {
+    width: 100px;
+    height: auto;
+}
+#phoneicon {
+    width: 100px;
+    height: auto;
+}
+
+#emailicon {
+    width: 100px;
+    height: auto;
+}
+
+#faxicon {
+    width: 100px;
+    height: auto;
+}
+
 #map {
     width: 40%;
     height: auto;
