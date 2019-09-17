@@ -87,7 +87,6 @@ figcaption {
     margin-right: 52%;
     border: 1px blue solid;
 
-    
 }
 #health, #homeowners, #condo, #boat, #motorcycle {
     border-radius: 50%;
@@ -113,17 +112,12 @@ figcaption {
 
 }
 #hallmark {
-    width: 20%;
+    width: 25%;
     height: auto;
 
 }
 #progressive {
-    width: 15%;
-    height: auto;
-
-}
-#assurant {
-    width: 15%;
+    width: 12%;
     height: auto;
 
 }
@@ -161,7 +155,23 @@ figcaption {
 /* BACK TO TOP BUTTON */
 #backToTop {
     color: blue;
-    font-size: 1rem;
+    font-size: 0.5rem;
     margin-left: 49%;
     margin-right: 49%;
+}
+#footer {
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+
+}
+#backToTop {
+    font-size: 1.5rem;
+    color: blue;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 41%;
+    margin-right: 32%;
+
 }
