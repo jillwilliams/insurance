@@ -6,11 +6,50 @@ body {
     align-content: center;
     margin-bottom: 25px;
 }
-/* Text: DL Williams Insurance */
-h1 {
-    font-style: "Gayathri", sans-serif;
-    text-align: center;
-
+/* DL Williams Logo */
+#header {
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 25px;
+    margin-bottom: -45px;
+}
+/* NAVBAR */
+ul {
+    list-style-type: none;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding: 5px;
+    overflow: hidden;
+    background-color: lightgrey;
+    border: 3px black solid;
+    outline: 1px blue solid;
+}
+li {
+    display: inline-block;
+    padding: 5px;
+    font-size: 1.3rem;
+    font-family: 'Gayathri', sans-serif;
+    letter-spacing: 2px;
+}
+/* ADJUSTING THE NAVBAR TERMS */
+li a {
+    display: block;
+    color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 90px;
+    padding-left: 90px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: black;
+    color: white;
+}
+#about {
+    color: blue;
+    text-shadow: 1px 1px 1px black;
 }
 /* Text: Insurance and Bonds */
 p {
@@ -54,6 +93,60 @@ figcaption {
     border-radius: 50%;
     border: 1px blue solid;
 }
+#partners {
+    font-size: 1rem;
+    color: blue;
+}
+/* IMAGES: PARTNERS WITH DL WILLIAMS INS. */
+#hartford {
+    width: 10%;
+    height: auto;
+}
+#philadelphia {
+    width: 10%;
+    height: auto;
+
+}
+#americanModern {
+    width: 10%;
+    height: auto;
+
+}
+#hallmark {
+    width: 20%;
+    height: auto;
+
+}
+#progressive {
+    width: 15%;
+    height: auto;
+
+}
+#assurant {
+    width: 15%;
+    height: auto;
+
+}
+#employers {
+    width: 15%;
+    height: auto;
+
+}
+#metlife {
+    width: 15%;
+    height: auto;
+
+}
+#nationwide {
+    width: 20%;
+    height: auto;
+
+}
+#travelers {
+    width: 20%;
+    height: auto;
+
+}
 #map {
     width: 40%;
     height: auto;
@@ -64,4 +157,11 @@ figcaption {
     margin-left: 30%;
     margin-right: 30%;
 
+}
+/* BACK TO TOP BUTTON */
+#backToTop {
+    color: blue;
+    font-size: 1rem;
+    margin-left: 49%;
+    margin-right: 49%;
 }
